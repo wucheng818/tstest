@@ -7,8 +7,7 @@
     "dev": "webpack-dev-server --client-log-level none --color --inline --hot --config webpack.dev.js",
     "start": "npm run dev",
     "build": "webpack --config webpack.prod.js --progress --color",
-    "lint": "tslint \"src/typescript/*.ts\" --force",
-    "release": "node genChangelog && git add --all && standard-version --commit-all"
+    "lint": "tslint \"src/typescript/*.ts\" --force"
   },
   "author": "wucheng",
   "license": "ISC",
