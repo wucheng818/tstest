@@ -15,9 +15,9 @@ install:
  
 before_script:
  
-# 无其他依赖项所以执行npm run build 构建就行了
+# 执行npm run build 构建
 script:
-  - npm run lint && npm run build
+  -  npm run build
 
 # E: Build LifeCycle
 
