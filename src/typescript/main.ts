@@ -57,5 +57,5 @@ console.log(finds(5))
 // map方法
 
 class ExtendFin extends Array {
-    c
+    css
 }
