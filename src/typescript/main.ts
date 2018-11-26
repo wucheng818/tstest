@@ -107,6 +107,33 @@ const fills=(arr,str,start,end)=>{
     return arr
 }
 console.log(fills(arr,0,2,6))
+
+//findindex方法
+const findindexs= (arr,age) => {
+    var i=null;
+    for( let index in arr){
+        if(arr[index]==age){
+            i=index
+        }
+    }
+    return i
+}
+console.log(findindexs(arr,5))
+
+//join方法
+
+const joins= (arr) =>{
+    var str='';
+    for(let index in arr){
+        if(index<arr.length){
+            str+=arr[index]+','
+        }
+    }
+    str=str.substr(0,str.length-1);
+    return str
+}
+
+console.log(joins(arr))
 export {
     finds,
     somes,
@@ -114,5 +141,7 @@ export {
     entriess,
     maps,
     filters,
-    fills
+    fills,
+    findindexs,
+    joins
 }
