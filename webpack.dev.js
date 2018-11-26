@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 const path = require('path');
 const merge = require('webpack-merge');
 // 引入通用webpack配置文件

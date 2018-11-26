@@ -1,16 +1,21 @@
 {
-  "name": "tstest",
-  "version": "1.0.0",
+  "name": "keketstest",
+  "version": "1.0.1-2",
   "description": "",
   "main": "./dist/bundle.min.js",
   "scripts": {
     "dev": "webpack-dev-server --client-log-level none --color --inline --hot --config webpack.dev.js",
     "start": "npm run dev",
     "build": "webpack --config webpack.prod.js --progress --color",
-    "lint": "tslint \"src/typescript/*.ts\" --force"
+    "lint": "tslint \"src/typescript/*.ts\" --force",
+    "release": "npm run build && npm version prerelease && npm publish --access public"
   },
   "author": "wucheng",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wucheng818/tstest.git"
+  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-loader": "^7.1.5",
