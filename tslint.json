@@ -1,0 +1,14 @@
+{
+
+    "extends": "tslint:latest",
+    "rules": {
+      "curly": true
+    },
+    "jsRules": {
+     
+      "curly": true
+    },
+    "rulesDirectory": [
+     
+    ]
+  }
