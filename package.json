@@ -2,7 +2,7 @@
   "name": "tstest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/bundle.min.js",
   "scripts": {
     "dev": "webpack-dev-server --client-log-level none --color --inline --hot --config webpack.dev.js",
     "start": "npm run dev",
